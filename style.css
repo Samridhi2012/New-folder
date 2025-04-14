@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+    background-color: aqua;
+    color: antiquewhite;
+}
+
+hl {
+    color: brown;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+ul>li :hover {
+    color: blue;
+}
+
+ul>li::before {
+    content: "🚀";
+}
+
+a::after {
+    content: "🚀";
+}
+
+P:first-letter {
+    font-size: 47px;
+    color: pink;
+}
